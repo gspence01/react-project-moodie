@@ -2,37 +2,21 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.background {
+  background-image: url(../public/unsplash-bg-flowers.jpg);
+  position:absolute;
+  background-size: cover;
+  height: 75vh;
+  width:100%;
+  background-repeat:no-repeat;
+  background-position: right center;
+  z-index: -1;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gallery{
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px black;
+  min-height: 200px;
+  min-width: 200px;
 }
